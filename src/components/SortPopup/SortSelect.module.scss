@@ -1,0 +1,36 @@
+.select {
+  width: 150px;
+  height: 20px;
+  border: none;
+  outline: none;
+  appearance: none;
+  color: #FE5F1E;
+  font-size: 1.4rem;
+  margin-left: 5px;
+  font-weight: bold;
+
+  #xyz {
+    border:0px;
+    outline:0px;
+ }
+
+  option {
+    color: #000;
+    font-size: 1.4rem;
+    margin-left: 5px;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+}
+
+.select_wrapper {
+  span {
+    color: #2C2C2C;
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+
+  @media screen and (max-width: 768px) {
+    margin: 20px 0 10px 100px;
+  }
+}
